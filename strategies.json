@@ -1,0 +1,89 @@
+{
+  "presets": {
+    "默认": [
+      {
+        "name": "跌1%买50",
+        "frequency": "daily",
+        "weekday": 0,
+        "monthday": 1,
+        "direction": "drop",
+        "threshold_pct": 1.0,
+        "action": "buy",
+        "amount": 50.0
+      },
+      {
+        "name": "跌2%买100",
+        "frequency": "daily",
+        "weekday": 0,
+        "monthday": 1,
+        "direction": "drop",
+        "threshold_pct": 2.0,
+        "action": "buy",
+        "amount": 100.0
+      },
+      {
+        "name": "跌3%买200",
+        "frequency": "daily",
+        "weekday": 0,
+        "monthday": 1,
+        "direction": "drop",
+        "threshold_pct": 3.0,
+        "action": "buy",
+        "amount": 200.0
+      },
+      {
+        "name": "跌4%买400",
+        "frequency": "daily",
+        "weekday": 0,
+        "monthday": 1,
+        "direction": "drop",
+        "threshold_pct": 4.0,
+        "action": "buy",
+        "amount": 400.0
+      }
+    ],
+    "跌买，涨不买": [
+      {
+        "name": "跌1%买50",
+        "frequency": "daily",
+        "weekday": 0,
+        "monthday": 1,
+        "direction": "drop",
+        "threshold_pct": 1.0,
+        "action": "buy",
+        "amount": 50.0
+      },
+      {
+        "name": "跌2%买100",
+        "frequency": "daily",
+        "weekday": 0,
+        "monthday": 1,
+        "direction": "drop",
+        "threshold_pct": 2.0,
+        "action": "buy",
+        "amount": 100.0
+      },
+      {
+        "name": "跌3%买200",
+        "frequency": "daily",
+        "weekday": 0,
+        "monthday": 1,
+        "direction": "drop",
+        "threshold_pct": 3.0,
+        "action": "buy",
+        "amount": 200.0
+      },
+      {
+        "name": "跌4%买400",
+        "frequency": "daily",
+        "weekday": 0,
+        "monthday": 1,
+        "direction": "drop",
+        "threshold_pct": 4.0,
+        "action": "buy",
+        "amount": 400.0
+      }
+    ]
+  },
+  "current": "跌买，涨不买"
+}
