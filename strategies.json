@@ -83,6 +83,18 @@
         "action": "buy",
         "amount": 400.0
       }
+    ],
+    "每日定投": [
+      {
+        "name": "每日定投30",
+        "frequency": "daily",
+        "weekday": 0,
+        "monthday": 1,
+        "direction": "any",
+        "threshold_pct": 0.0,
+        "action": "buy",
+        "amount": 30
+      }
     ]
   },
   "current": "跌买，涨不买"
